@@ -190,20 +190,6 @@ footer .textoFooter {
   width: 9.4rem;
 }
 
-/*-----Media----*/
-@media (min-width: 350px) and (max-width: 1024px) {
-  html {
-    font-size: 80%;
-  }
-  .gridPadreInicio {
-    display: grid;
-    grid-template-areas: "div2I" "parrafoInicio";
-  }
-  .gridPadreContacto {
-    display: grid;
-    grid-template-areas: "divContacto1" "divContacto2";
-  }
-}
 /* -------GRID----------- */
 .gridPadreInicio {
   display: grid;
@@ -218,6 +204,21 @@ footer .textoFooter {
 .gridPadreMusica {
   display: grid;
   grid-template-areas: "imagenM tituloPrincipalMusica" "imagenM subtituloMusica";
+}
+
+/*-----Media----*/
+@media (min-width: 350px) and (max-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
+  .gridPadreInicio {
+    display: grid;
+    grid-template-areas: "div2I" "parrafoInicio";
+  }
+  .gridPadreContacto {
+    display: grid;
+    grid-template-areas: "divContacto1" "divContacto2";
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

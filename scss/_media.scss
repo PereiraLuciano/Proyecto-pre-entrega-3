@@ -7,11 +7,15 @@
   
     .gridPadreInicio {
       display: grid;
-      grid-template-areas: "div2I" "parrafoInicio";
+      grid-template-areas: 
+      "div2I"
+      "parrafoInicio" ;
     }
   
     .gridPadreContacto {
       display: grid;
-      grid-template-areas: "divContacto1" "divContacto2";
+      grid-template-areas:
+      "divContacto1" 
+      "divContacto2";
     }
   }
